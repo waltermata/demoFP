@@ -28,3 +28,34 @@ Se necesita utilizar el símbolo de proceso para realizar la asignación de la c
 Ninguna, solo se asigna la cadena "hola mundo" a la variable mensaje
 #### 1.5 Salidas
 Hola Mundo
+
+
+# Elixir
+
+## Introducción a la Programación Funcional
+
+## Introducción a Elixir
+
+## Instalación en Windows
+
+* Página principal del lenguaje: [https://elixir-lang.org/](https://elixir-lang.org/)
+* Página de descarga: [https://elixir-lang.org/install.html](https://elixir-lang.org/install.html)
+* Enlace directo de descarga: [Descargar](https://github.com/elixir-lang/elixir-windows-setup/releases/download/v2.2/elixir-websetup.exe)
+* Instalación:
+    * Descargar el instalador y ejecutar
+    * Click en **Next**
+    * Seleccionar la versión, de preferencia la más reciente (1.13.x), click en **Next**
+    * Seleccionar la versión de Erlang que aparece por defecto,  click en **Next**
+    * Click en **Install**
+    * Click en **Next**, **Next**, **Install**, hasta terminar la instalación.
+* Comprobación de la instalación:
+    * Abrir una terminal
+    * Escribir *elixir --version*
+    
+```bash
+c:\>elixir --version
+Erlang/OTP 24 [erts-12.1.5] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [jit]
+
+Elixir 1.13.3 (compiled with Erlang/OTP 22)
+c:\>
+```
